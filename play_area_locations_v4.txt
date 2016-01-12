@@ -1,0 +1,89 @@
+1	KidZania	1.247282, 103.840005	1 Cove Avenue, Level 3, Block B #03-02	http://www.kidzania.com.sg/
+1	Amazonia	1.294231, 103.832088	#03-08 Great World City Mall (Level 3), 1 Kim Seng Promenade	www.amazoniafun.com
+1	Trampoline parks	1.321381, 103.746581	 Zoom Park Asia #01-14	www.zoomparkasia.com
+1	Trampoline parks	1.292512, 103.839006	Amped, The Herencia, #02-11	 www.ampedsingapore.com
+1	Kaboodle Kids	1.297929, 103.900361	902 East Coast Parkway (Big Splash), Block B, #02-05B	www.kaboodlekids.com.sg
+1	Royce Kids Gym	1.292070, 103.844907	177 River Valley Road #02-20/21	 www.roycekidsgym.com
+1	JWT Kids Gym	1.292141, 103.842695	81 Clemenceau Avenue, #02-12 UE Square	 www.jwtkids-singapore.com
+1	Fidgets	1.337937, 103.793431	200 Turf Club Rd, #03-10	www.fidgets.com.sg
+1	Explorer Kid	1.379385, 103.955139	E!hub@ Downtown East 3rd Floor	 www.explorerkid.com
+1	Explorer Kid	1.369328, 103.848122	AMK Hub, 53 Ang Mo Kio Ave 3	 www.explorerkid.com
+1	The Tiara Society	1.292981, 103.842948	UE Square, #01-32, 83 Clemenceau Avenue  (Near Robertson Quay).	 www.thetiarasociety.com
+1	The Polliwogs	1.264785, 103.823001	 #03-12 VivoCity via Lobby A or B (Sky Park Level Towards HarbourFront Centre).	www.thepolliwogs.com
+1	The City	1.291984, 103.844875	#03-04A Liang Court Shopping Centre	 www.thecity.com.sg
+1	Happy Willow	1.315088, 103.894379	11 Tanjong Katong Road #02-01/02 One KM 	 www.happywillow.com.sg
+1	Kidz Amaze	1.329986, 103.854245	SAFRA Toa Payoh, 293 Toa Payoh Lorong	 www.safra.sg
+2	Amazonia	1.294123, 103.832088	Great World City #03-08	http://www.amazoniafun.com/
+2	Bouncing Kids	1.358541, 103.885382	Hougang (Blk 206 Hougang St 21)	http://bouncingkids.com.sg/
+2	Cool De Sac	1.296333, 103.858967	Suntec City Mall #02-379/80	http://cooldesac.com.sg/
+2	Explorer Kids	1.369038, 103.848133	AMK Hub #04-02 |	http://www.explorerkid.com/
+2	Explorer Kids	1.379342, 103.955096	 Downtown East 3rd floor	http://www.explorerkid.com/
+2	Fidgets	1.338012, 103.793688	The Grandstand #03-10 |	http://fidgets.com.sg/
+2	Fidgets	1.284121, 103.858835	 Marina Bay Sands #B1-57	http://fidgets.com.sg/
+2	 FUN N LAUGHTER	1.311467, 103.856674	City Square Mall #B2-32	https://www.facebook.com/FunNLaughter2015
+2	 FUN AT GIGGLES	1.302702, 103.905580	 Marine Parade (Blk 87 Marine Parade Central)	http://www.funatgiggles.com.sg/
+2	GO GO BAMBINI	1.304466, 103.809388	Dempsey Hill	http://www.gogobambini.com/
+2	HAPPY WILLOW	1.299483, 103.787667	 Fusionopolis #B1-06 | 	http://www.happywillow.com.sg/
+2	HAPPY WILLOW	1.299826, 103.787677	One KM #02-01/02	http://www.happywillow.com.sg/
+2	HO2T	1.303657, 103.902903	Katong V #03-09/12	http://ho2t.com.sg/
+2	HOKEY POKEY	1.391251, 103.876186	Seletar Mall #B1-28/29	http://hokeypokey.com.sg/
+2	KABOODLE KIDS	1.297833, 103.900318	Big Splash (East Coast Park)	http://kaboodlekids.com.sg/
+2	KIDDY FUN	1.337765, 103.793656	The Grandstand #04-04/05 (Turf City)	http://kiddyfun.com.sg/
+2	KIDZ AMAZE	1.329900, 103.854235	SAFRA Toa Payoh |	http://www.safra.sg/kidzamaze#.VnOILBWrTNM
+2	KIDZ AMAZE	1.334983, 103.706428	SAFRA Jurong	http://www.safra.sg/kidzamaze#.VnOILBWrTNM
+2	LITTLE PLANET PLAYLAND	1.302013, 103.839818	Centrepoint #02-21	http://littleplanet.com.sg/
+2	POLLIWOGS	1.295968, 103.858967	Suntec City Mall #02-724 	http://www.thepolliwogs.com/
+2	POLLIWOGS	1.264688, 103.822991	Vivocity #03-12	http://www.thepolliwogs.com/
+2	ROYCE KIDS GYM	1.292048, 103.844896	 Liang Court #02-20/21	http://www.roycekidsgym.com/
+2	SINGKIDS PLAYSYSTEM	1.338343, 103.983299	Changi Airport T3 Basement 2 	http://www.singkids.com.sg/
+2	SINGKIDS PLAYSYSTEM	1.264263, 103.822337	 Vivocity #01-171	http://www.singkids.com.sg/
+2	The City	1.291844, 103.844885	 Liang Court #03-04A	http://www.thecity.com.sg/
+2	THE PETITE PARK	1.336067, 103.963901	Changi City Point #02-15/16	http://www.petitepark.com.sg/index.html
+2	THE PETITE PARK	1.311457, 103.856641	City Square Mall #B2-51/52	http://www.petitepark.com.sg/index.html
+2	TICKLE TICKLE	1.289469, 103.820661	Delta Sports Complex	http://tickletickle.sg/
+2	TICKLE TICKLE	1.370945, 103.888024	Hougang Sports Hall	http://tickletickle.sg/
+3	Hougang Mall	1.372683, 103.893927	On Levels 2 and 5, next to the restrooms	http://www.hougangmall.com.sg/
+3	Nex	1.350848, 103.872171	Two rooms on B2, B1, L1, L2 and L4, one room on L3 and L4R, next to Serangoon Public Library. There is another one within Isetan’s children’s department on L3.	http://www.nex.com.sg/
+3	Amk Hub	1.369489, 103.848455	On L3, next to the restrooms behind DBS.	http://www.amkhub.com.sg/home/home.php
+3	Junction 8, Bishan	1.350711, 103.848687	On B1, L1, L2 and L3, next to the restrooms. There are two on L2.	http://www.junction8.com.sg/en/
+3	The Shoppes at Marina Bay Sands	1.282318, 103.858311	 Bay Level, next to Gong Cha (Bay Level, L1-72), Bay Level, next to ARCH (Bay Level, L1-28), Galleria Level, next to Dior (Galleria Level, B1-28), Galleria Level, next to Cold Rock Creamery (Galleria Level, B1-60), Canal Level, next to EpiCentre (Canal Level, B2-100A), Canal Level, next to Rasapura Masters (Canal Level, B2-50).	http://www.marinabaysands.com/
+3	112 Katong	1.305532, 103.904622	 No nursing room, but there is a changing table in the handicapped restroom on each floor	http://112katong.com.sg/
+3	Century Squares	1.352628, 103.943794	On L2 and L3, next to the restrooms. L2 has facilities for women and is therefore dubbed ‘Exclusively Hers’. Aside from the nursing rooms, there is a long sofa and a huge mirror in the Ladies on this floor	http://www.centurysquare.com.sg/
+3	Parkway Parade	1.301201, 103.905324	On B1, L1, L2 and L3. There are no restrooms on L4 and L7	http://www.parkwayparade.com.sg/
+3	Tampines Mall	1.352886, 103.945277	 On L1, L2, L3 and L4, next to the restrooms.	http://www.tampinesmall.com.sg/en/
+3	Tampines 1	1.354226, 103.945237	 On L2 and L5, next to the restrooms.	http://www.tampines1.com.sg/
+3	White Sands, Pasir Ris	1.372629, 103.949704	On B1, next to the restrooms.	http://www.whitesands.com.sg/
+3	Bukit Panjang Plaza 	1.379951, 103.764282	On L1 within the Ladies, L2 and L3 next to the lifts, and L4 next to the library	http://www.bukitpanjangplaza.com.sg/en/
+3	Clementi Mall	1.315054, 103.764721	On L3, L4 and L5, next to the restrooms. There is one more within the food court on L4	https://www.theclementimall.com/
+3	IMM, Jurong East	1.334863, 103.746883	On L1 near Giant, L2 near OSIM, and L3 near the carpark entrance.	http://www.imm.sg/en/
+3	Junction 10, Choa Chu Kang	1.380434, 103.760061	On L1 and L2, next to the restrooms, plus one more within Food Fare on L2	http://www.junction10.com.sg/index.aspx?key=home
+3	Jurong Point	1.340089, 103.706453	On B1 and L3 in the new wing next to the toilets, and within the L2 Ladies restroom	http://www.jurongpoint.com.sg/
+3	Sembawang Shopping Centre 	1.442054, 103.824803	On B1, by the restrooms	http://www.sembawangsc.com.sg/en/
+3	West Coast Plaza	1.303596, 103.765906	 On B1, next to the restrooms.	http://www.westcoastplaza.com.sg/home/index.aspx?key=home
+3	313@Somerset	1.301595, 103.838383	On B3, L1 and L5 by the restrooms.	http://www.313somerset.com.sg/
+3	Bugis Junction	1.299519, 103.855747	On B1, L1 and L3. There is one room in the Malabar Mal area on L1, and next to the restrooms in the main building	http://www.bugisjunction-mall.com.sg/en/
+3	Bugis+, formerly Iluma	1.299608, 103.854248	On L1, L2, L3 and L4, next to the restrooms. Look for the small “baby” writing on a red square on the door. The rooms are inconspicous as they are located along a row of uniform white doors. Only those from L1 to L3 were open to public when we visited.	http://www.bugisplus.com.sg/en/
+3	City Square Mall	1.311500, 103.856609	 On B1, L2 and L4, next to the restrooms.	http://citysquaremall.com.sg/
+3	Far East Plaza	1.307163, 103.834331	 On L2, L3, L4 and L5, by the restrooms	http://www.fareast-plaza.com/
+3	Forum the Shopping Mall	1.306307, 103.828639	 On L1 next to the restrooms	http://forumtheshoppingmall.com.sg/
+3	Funan Digital Mall	1.291459, 103.850063	On L1, L2, L3 and L4, next to the restrooms	http://www.funan.com.sg/en/
+3	Great World City	1.293151, 103.832336	On B1 by the restrooms	http://www.greatworldcity.com.sg/
+3	Marina Square	1.291008, 103.857618	One room on B1, one room on L1, three rooms on L2, four rooms on L3, near some of the restrooms	http://www.marinasquare.com.sg/
+3	Mandarin Gallery	1.302224, 103.836501	 Family Rooms on L2, L3 and L4	http://www.mandaringallery.com.sg/
+3	Marina Bay Sands, The Shoppes	1.282296, 103.858333	On B2 (next to #B2-101), B1 (next to #B1-82A), and two rooms on L1 (next to Exhibition Hall B and #L1-28). There is one within the Rasapura Masters food court as well.	http://www.marinabaysands.com/
+3	Millenia Walk	1.291655, 103.860166	On B1, by the carpark entrance, near Lift Lobby B	http://www.milleniawalk.com/
+3	Ngee Ann City	1.302514, 103.834589	On B2, B1 and L3. There are two on B2, within the Food Hall and next to Watsons. The ones on B2 and B1 are within the Ladies	http://www.ngeeanncity.com.sg/
+3	Orchard Central	1.300655, 103.839783	On L4 and L7 next to the restrooms	http://www.orchardcentral.com.sg/index.aspx?key=home
+3	Palais Renaissance	1.306674, 103.829531	On L2 next to the restrooms	http://www.palais.sg/
+3	Paragon	1.304735, 103.836141	On L3 and L5 by the restrooms	https://www.paragon.com.sg/
+3	Plaza Singapura	1.301102, 103.845422	On L3 next to the restrooms, and on L6 within the Ladies	http://www.plazasingapura.com.sg/en/
+3	Raffles City	1.294246, 103.852786	On B1 and L3	http://www.rafflescity.com.sg/
+3	Scotts Square	1.304705, 103.830305	On L2 and L3, next to the restrooms.	http://scottssquare.com/
+3	Suntec City Mall	1.296118, 103.858946	On L3 at the Kids Zone.	http://sunteccity.com.sg/
+3	The Central, Clarke Quay	1.288606, 103.846683	 On L1 outside the main mall, next to the Ladies.	http://www.clarkequaycentral.com.sg/home/index.aspx?key=home
+3	Tiong Bahru Plaza	1.286199, 103.827353	On L2 and L5, next to the restrooms. The one on L2 is newer	http://www.tiongbahruplaza.com.sg/
+3	Tanglin Mall	1.304895, 103.823828	On L3, by the restrooms	http://www.tanglinmall.com.sg/
+3	United Square	1.317818, 103.843491	On L1, next to Growing Fun (#01-29/30) @ Connectz	http://www.unitedsquare.com.sg/
+3	Velocity@Novena Square	1.319912, 103.843987	On L3, next to the restrooms	http://www.novenasquare.com/
+3	Wheelock Place	1.304716, 103.830326	On L1, by the lift lobby	http://www.wheelockplace.com/
+3	Wisma Atria	1.302782, 103.834289	Within the Ladies restroom on L3	http://www.wismaonline.com/?ch=english_home
