@@ -3,11 +3,21 @@
 		<meta name="viewport" content="width=device-width">
 		<script src="http://maps.googleapis.com/maps/api/js"></script>
 		<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+		<style>
+			#legend {
+        font-family: Arial, sans-serif;
+        background: #fff;
+        padding: 10px;
+        margin: 10px;
+        border: 3px solid #000;
+      }
+      </style>
 	</head>
 
 	<body onload="getLocation()">
 
 		<div id="mapholder" style="width:100%;height:100%;"></div>
+		<div id="legend"/>
 
 		<script>
 
@@ -94,6 +104,24 @@
 
 			map = new google.maps.Map(document.getElementById("mapholder"),mapProp);
 
+			//Push the Legend Div to the bottom right and then add content to it
+			map.controls[google.maps.ControlPosition.RIGHT_TOP].push(document.getElementById('legend'));
+
+			var legend = document.getElementById('legend');
+
+			var div_PlayArea = document.createElement('div');
+			div_PlayArea.innerHTML = "<img src='http://maps.google.com/mapfiles/ms/icons/blue-dot.png'>" + "Play Area";
+			legend.appendChild(div_PlayArea);
+
+			var div_NursingArea = document.createElement('div');
+			div_NursingArea.innerHTML = "<img src='http://maps.google.com/mapfiles/ms/icons/pink-dot.png'>" + "Nursing Area";
+			legend.appendChild(div_NursingArea);
+
+			var div_GeneralArea = document.createElement('div');
+			div_GeneralArea.innerHTML = "<img src='http://maps.google.com/mapfiles/ms/icons/red-dot.png'>" + "Other";
+			legend.appendChild(div_GeneralArea);
+
+
 			//Create a marker in green to show the current location
 			var current_marker = new google.maps.Marker({
 					position:latlong,
@@ -111,10 +139,11 @@
 
 			addYourLocationButton(map, current_marker);
 
-			//Read from Firebase
+			//Create Firebase reference
 			var myDataRef = new Firebase('https://fiery-fire-3697.firebaseio.com/');
 
 			//Wait to get data from firebase and then create markers for all the locations
+			//as the events come from Firebase
 			myDataRef.on('child_added', function(snapshot) {
         var message = snapshot.val();
         console.log(message.name + " |  " + message.details + " | " + message.type + " | " + message.lat + " | " + message.lon);
