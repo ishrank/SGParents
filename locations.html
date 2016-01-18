@@ -107,7 +107,7 @@
 			var mapProp;
 			mapProp = {
 				center:latlong, 
-				zoom:13,
+				zoom:15,
 				mapTypeId:google.maps.MapTypeId.ROADMAP
 			};
 
@@ -119,12 +119,16 @@
 			var legend = document.getElementById('legend');
 
 			var div_PlayArea = document.createElement('div');
-			div_PlayArea.innerHTML = "<img src='http://maps.google.com/mapfiles/ms/icons/blue-dot.png'>" + "Play Area";
+			div_PlayArea.innerHTML = "<img src='http://maps.google.com/mapfiles/ms/icons/blue-dot.png'>" + "Play";
 			legend.appendChild(div_PlayArea);
 
 			var div_NursingArea = document.createElement('div');
-			div_NursingArea.innerHTML = "<img src='http://maps.google.com/mapfiles/ms/icons/pink-dot.png'>" + "Nursing Area";
+			div_NursingArea.innerHTML = "<img src='http://maps.google.com/mapfiles/ms/icons/pink-dot.png'>" + "Nursing";
 			legend.appendChild(div_NursingArea);
+
+			var div_FoodAndPlayArea = document.createElement('div');
+			div_FoodAndPlayArea.innerHTML = "<img src='http://maps.google.com/mapfiles/ms/icons/yellow-dot.png'>" + "Food And Play";
+			legend.appendChild(div_FoodAndPlayArea);
 
 			var div_GeneralArea = document.createElement('div');
 			div_GeneralArea.innerHTML = "<img src='http://maps.google.com/mapfiles/ms/icons/red-dot.png'>" + "Other";
@@ -164,9 +168,12 @@
         if (message.type == "Nursing"){
         	icon_type = "http://maps.google.com/mapfiles/ms/icons/pink-dot.png";
         	location_type = "Nursing Area";
-        }else if (message.type == "Play"){
+        } else if (message.type == "Play"){
 					icon_type = "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";
 					location_type = "Play Area";
+        } else if (message.type == "Food and Play"){
+        	icon_type = "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png";
+					location_type = "Food And Play Area";
         } else {
         	icon_type = "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
         	location_type = message.type;
