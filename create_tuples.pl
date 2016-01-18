@@ -16,7 +16,9 @@ while ( my $line = <$fh> ) {
 		
 		if ($type == 3){
 			$type = "Nursing";
-		}else {
+		} elsif ($type == 4){
+			$type = "Food and Play";
+		} else {
 			$type = "Play";
 		}
 
@@ -27,6 +29,7 @@ close $fh;
 
 foreach my $llkey (keys %latlongs){
 	my @latLongArray = @{$latlongs{$llkey}};
+	#print "\n\n------> ", $latLongArray[3],"\n";
 	print "{lat:\"".
 	$latLongArray[0].
 	"\", lon:\"".
