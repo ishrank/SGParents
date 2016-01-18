@@ -7,9 +7,9 @@
 			#legend {
         font-family: Arial, sans-serif;
         background: #fff;
-        padding: 10px;
-        margin: 10px;
-        border: 3px solid #000;
+        padding: 5px;
+        margin: 5px;
+        border: 2px solid #000;
       }
       </style>
 	</head>
@@ -21,7 +21,9 @@
 
 		<script>
 
-		var x = document.getElementById("demo");
+		var x = document.getElementById("Main");
+		var current_loc_marker;
+		var map;
 
 		//Function that starts the application
 		function getLocation() {
@@ -76,6 +78,7 @@
 		            navigator.geolocation.getCurrentPosition(function(position) {
 		                var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 		                map.setCenter(latlng);
+		                changeMarkerPosition(current_loc_marker, position.coords.latitude, position.coords.longitude);
 		                clearInterval(animationInterval);
 		                secondChild.style['background-position'] = '-144px 0';
 		            });
@@ -91,10 +94,16 @@
 
 		function showPosition(position){
 			
-			//var latlong = new google.maps.LatLng("1.290018", "103.804586"); //Random Singapore position to test when I'm not there
-			var latlong = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+			var latlong ; //= new google.maps.LatLng(position.coords.latitude, position.coords.longitude);	
+			var browser_url = window.location.href;
 
-			var map;
+			if (browser_url.indexOf("debug") != -1){
+				console.log(browser_url);
+				latlong = new google.maps.LatLng("1.290018", "103.804586"); //Random Singapore position to test when I'm not there
+			}else{ 
+				latlong = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+			}
+
 			var mapProp;
 			mapProp = {
 				center:latlong, 
@@ -123,13 +132,13 @@
 
 
 			//Create a marker in green to show the current location
-			var current_marker = new google.maps.Marker({
+			current_loc_marker = new google.maps.Marker({
 					position:latlong,
 					map: map,
 					icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
 				});
 
-			google.maps.event.addListener(current_marker, 'click', function(event){
+			google.maps.event.addListener(current_loc_marker, 'click', function(event){
 					var info_body = "<b>Current Location</b>";
 					var infoWindow = new google.maps.InfoWindow({
 						content: info_body,
@@ -137,7 +146,7 @@
 					infoWindow.open(map,this);
 				});
 
-			addYourLocationButton(map, current_marker);
+			addYourLocationButton(map, current_loc_marker);
 
 			//Create Firebase reference
 			var myDataRef = new Firebase('https://fiery-fire-3697.firebaseio.com/');
@@ -146,7 +155,7 @@
 			//as the events come from Firebase
 			myDataRef.on('child_added', function(snapshot) {
         var message = snapshot.val();
-        console.log(message.name + " |  " + message.details + " | " + message.type + " | " + message.lat + " | " + message.lon);
+        //console.log(message.name + " |  " + message.details + " | " + message.type + " | " + message.lat + " | " + message.lon);
 
         var outletLoc = new google.maps.LatLng(message.lat, message.lon);
         var icon_type = "";
@@ -163,6 +172,7 @@
         	location_type = message.type;
         }
 
+        
 				var marker = new google.maps.Marker({
 					position:outletLoc,
 					map: map,
@@ -173,16 +183,33 @@
 					icon: icon_type,
 				});
 
+				addInfoWindowListernerToMarker(marker);
+
 				//Checks for clicks and pops up the details of the location
+				/*
 				google.maps.event.addListener(marker, 'click', function(event){
 					var info_body = "<b>"+this.title + " (" + this.type + ")</b><br>" + this.details + "<br><b>" + this.url + "</b>";
 					var infoWindow = new google.maps.InfoWindow({
 						content: info_body,
 					});
 					infoWindow.open(map,this);
-				});
+				});*/
 
       });
+		}
+
+		function addInfoWindowListernerToMarker(my_marker){
+			google.maps.event.addListener(my_marker, 'click', function(event){
+					var info_body = "<b>"+this.title + " (" + this.type + ")</b><br>" + this.details + "<br><b>" + this.url + "</b>";
+					var infoWindow = new google.maps.InfoWindow({
+						content: info_body,
+					});
+					infoWindow.open(map,this);
+			});
+		}
+
+		function changeMarkerPosition(my_marker, new_lat, new_lon){
+			my_marker.setPosition(new google.maps.LatLng(new_lat, new_lon));
 		}
 
 		</script>
