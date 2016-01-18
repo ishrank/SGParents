@@ -1,0 +1,62 @@
+	<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+    <!--Using jQuery and jQuery UI for display effects-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+
+    <!--Using the hamburger menu display code-->
+    <script src="js/hamburger.js"></script>    
+    <script src="js/main_functions.js"></script>
+
+    <!--Using Media Queries, if the viewport is smaller than 700px use another stylesheet-->
+    <link rel="stylesheet" type="text/css" media="all" href="css/hamburger.css"/>
+
+		<!--<meta name="viewport" content="width=device-width">-->
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+		<style>
+			#legend {
+        font-family: Arial, sans-serif;
+        background: #fff;
+        padding: 5px;
+        margin: 5px;
+        border: 2px solid #000;
+      }
+      </style>
+	</head>
+
+	<body onload="getLocation()">
+
+		<div id="container">
+			<!--The Hamburger Button in the Header-->
+			<header>
+	        <div id="hamburger">
+	            <div></div>
+	            <div></div>
+	            <div></div>
+	        </div>
+	    </header>
+
+	 		<!--The mobile navigation Markup hidden via css-->
+	    <nav>
+	        <ul>
+	            <li><a href="#">Chat</a></li>
+	            <li><a href="#">Help</a></li>
+	        </ul>
+	    </nav>
+
+	     <!--The Layer that will be layed over the content
+	    so that the content is unclickable while menu is shown-->
+	    <div id="contentLayer"></div>
+
+	    <!-- This is where the main content goes -->
+			<div id="mapholder"></div>
+			<div id="legend"/>
+		
+		</div> 
+
+	</body>
+	</html>
