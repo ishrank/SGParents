@@ -69,6 +69,21 @@ function addYourLocationButton (map, marker)
     map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(controlDiv);
 }
 
+function addInfoWindowListernerToMarker(my_marker){
+	google.maps.event.addListener(my_marker, 'click', function(event){
+			var info_body = "<b>"+this.title + " (" + this.type + ")</b><br>" + this.details + "<br><b>" + this.url + "</b>";
+			var infoWindow = new google.maps.InfoWindow({
+				content: info_body,
+			});
+			infoWindow.open(map,this);
+	});
+}
+
+function changeMarkerPosition(my_marker, new_lat, new_lon){
+	my_marker.setPosition(new google.maps.LatLng(new_lat, new_lon));
+}
+
+//Main function that creates the map, connects to Firebase and adds the markers
 function showPosition(position){
 	
 	var latlong ; //= new google.maps.LatLng(position.coords.latitude, position.coords.longitude);	
@@ -155,7 +170,6 @@ function showPosition(position){
     	icon_type = "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
     	location_type = message.type;
     }
-
     
 		var marker = new google.maps.Marker({
 			position:outletLoc,
@@ -169,29 +183,5 @@ function showPosition(position){
 
 		addInfoWindowListernerToMarker(marker);
 
-		//Checks for clicks and pops up the details of the location
-		/*
-		google.maps.event.addListener(marker, 'click', function(event){
-			var info_body = "<b>"+this.title + " (" + this.type + ")</b><br>" + this.details + "<br><b>" + this.url + "</b>";
-			var infoWindow = new google.maps.InfoWindow({
-				content: info_body,
-			});
-			infoWindow.open(map,this);
-		});*/
-
   });
-}
-
-function addInfoWindowListernerToMarker(my_marker){
-	google.maps.event.addListener(my_marker, 'click', function(event){
-			var info_body = "<b>"+this.title + " (" + this.type + ")</b><br>" + this.details + "<br><b>" + this.url + "</b>";
-			var infoWindow = new google.maps.InfoWindow({
-				content: info_body,
-			});
-			infoWindow.open(map,this);
-	});
-}
-
-function changeMarkerPosition(my_marker, new_lat, new_lon){
-	my_marker.setPosition(new google.maps.LatLng(new_lat, new_lon));
 }
