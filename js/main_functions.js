@@ -185,3 +185,7 @@ function showPosition(position){
 
   });
 }
+
+function writeToFirebase(firebaseRef, message){
+	
+}

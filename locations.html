@@ -159,7 +159,7 @@
 			//as the events come from Firebase
 			myDataRef.on('child_added', function(snapshot) {
         var message = snapshot.val();
-        //console.log(message.name + " |  " + message.details + " | " + message.type + " | " + message.lat + " | " + message.lon);
+        console.log(message.name + " |  " + message.details + " | " + message.type + " | " + message.lat + " | " + message.lon);
 
         var outletLoc = new google.maps.LatLng(message.lat, message.lon);
         var icon_type = "";
